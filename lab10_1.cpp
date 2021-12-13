@@ -31,6 +31,12 @@ int main(){
 			cout << setw(13) << left << initial;
 			cout << setw(13) << left << (initial * rate)/100; y = (initial * rate)/100;
 			cout << setw(13) << left << initial + y; z = initial + y;
+			if (initial + y < pay){
+				cout << setw(13) << left << initial + y;
+				cout << setw(13) << left << 0;
+				cout << "\n";	
+				break;
+			}
 			cout << setw(13) << left << pay;
 			cout << setw(13) << left << z - pay; x = z - pay;
 			cout << "\n";	
