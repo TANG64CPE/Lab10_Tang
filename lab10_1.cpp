@@ -33,7 +33,7 @@ int main(){
 			cout << setw(13) << left << initial + y; z = initial + y;
 			if (initial + y < pay){
 				cout << setw(13) << left << initial + y;
-				cout << setw(13) << left << 0;
+				cout << setw(13) << left << 0.00;
 				cout << "\n";	
 				break;
 			}
@@ -49,7 +49,7 @@ int main(){
 			cout << setw(13) << left << x + y; z = x + y;
 			if ( z < pay ){
 				cout << setw(13) << left << z;
-				cout << setw(13) << left << 0;
+				cout << setw(13) << left << 0.00;
 				break;
 			}else{
 				cout << setw(13) << left << pay;
