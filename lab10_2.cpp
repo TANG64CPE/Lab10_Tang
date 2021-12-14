@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-//Write the function printO() here
 int printO( int x,int y){
 	if ( x == 0 || x < 0 || y == 0 || y < 0){
 		cout << "Invalid input";
